@@ -5,13 +5,13 @@ It establishes a **secure, encrypted communication channel** for hybrid cloud en
 
 ---
 
-## 📑 Table of Contents
-- [Overview]
-- [Key Components]
-- [Workflow]
-- [Security]
-- [Outputs]
-- [Tools Used]
+## Table of Contents
+- Overview
+- Key Components
+- Workflow
+- Security
+- Outputs
+- Tools Used
 
 ---
 
@@ -40,35 +40,27 @@ through a **Site-to-Site IPsec/IKE VPN tunnel** using Terraform automation.
 
 **variables.tf** → Variable declarations
 
-**outputs.tf** → Output values (e.g., public IPs)
-
 **providers.tf** → Azure provider configuration
 
 ## Workflow
 
-# Initialize Terraform
+### Initialize Terraform
 terraform init
-
-# Review the deployment plan
+### Review the deployment plan
 terraform plan
-
-# Apply configuration to create resources
+### Apply configuration to create resources
 terraform apply
 
 ## Security
 
 - Encrypted tunnel using IPsec/IKE
-
 - Shared key authentication
-
 - Controlled access via Network Security Groups (NSGs)
 
 ## Outputs
 
 - VPN Gateway Public IP
-
 - Local Network Gateway IP
-
 - Connection Status
 
 ## Tool Used
