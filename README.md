@@ -6,14 +6,12 @@ It establishes a **secure, encrypted communication channel** for hybrid cloud en
 ---
 
 ## 📑 Table of Contents
-- [Overview](#-overview)
-- [Key Components](#-key-components)
-- [Workflow](#-workflow)
-- [Security](#-security)
-- [Outputs](#-outputs)
-- [Tools Used](#-tools-used)
-- [Use Cases](#-use-cases)
-- [Cleanup](#-cleanup)
+- [Overview]
+- [Key Components]
+- [Workflow]
+- [Security]
+- [Outputs]
+- [Tools Used]
 
 ---
 
@@ -72,3 +70,8 @@ terraform apply
 - Local Network Gateway IP
 
 - Connection Status
+
+## Tool Used
+
+- Terraform
+- Azure Infra
