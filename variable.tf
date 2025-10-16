@@ -1,11 +1,11 @@
 variable "tenant_id" {
   type = string
-  default = "6c96c136-8a5f-4c33-8ca1-48281b0aa8df"
+  default = "" #required tenant id
 }
 
 variable "subscription" {
   type = string
-  default = "ff796b21-0b11-4d2f-8d9a-23823e9d8709"
+  default = "" #required subscription id 
 }
 
 variable "on_prem_rg" {
@@ -17,7 +17,7 @@ variable "on_prem_rg" {
 variable "location" {
   type = string
   default = "Central India"
-  description = "LOcation of on prem rg"
+  description = "Location of on prem rg"
 }
 
 variable "on-prem-vnet-name" {
